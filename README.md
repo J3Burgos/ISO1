@@ -69,6 +69,7 @@
 
 ## Diagrama de Clases con Todas las Relaciones
 
+```plantuml
 @startuml
 ' Definición de clases con sus atributos y métodos
 class Empresa {
@@ -130,7 +131,7 @@ Empleado <|-- Cliente
 Reporte ..> Empleado: usa
 
 @enduml
-
+```
 ## Explicación de las Relaciones
 
 ### Asociación
