@@ -127,27 +127,61 @@
    - Ejemplo: Flujo de actividades para el procesamiento de un pedido desde la recepción hasta la entrega.
 
 ### Diagramas de Interacción
-- **Diagrama de Secuencia**: Destaca la ordenación temporal de los mensajes.
-  - **Elementos**:
-    - Objetos: Participantes en la interacción.
-    - Mensajes: Comunicación entre objetos.
-    - Línea de Vida: Existencia de un objeto a lo largo del tiempo.
-    - Foco de Control: Período durante el cual un objeto está ejecutando una acción.
-    - Fragmentos Combinados: Modelan estructuras de control como alternativas y bucles.
-  - **Ejemplo**: Interacción entre `Usuario`, `Sistema`, y `Base de Datos` para el proceso de autenticación.
 
-- **Diagrama de Comunicación**: Destaca la organización estructural de los objetos que envían y reciben mensajes.
-  - **Elementos**:
-    - Objetos: Nodos del grafo.
-    - Enlaces: Conexiones entre objetos.
-    - Mensajes: Comunicación entre objetos con numeración de secuencia.
-  - **Ejemplo**: Interacción estructural entre `Cliente`, `Vendedor`, y `Sistema de Inventario`.
+#### Conceptos Básicos
+- **Enlaces**:
+  - Conexiones semánticas entre objetos (instancias de asociaciones).
+  - Especifican un camino a lo largo del cual un objeto puede enviar un mensaje a otro objeto (o a sí mismo).
+  
+- **Mensajes**:
+  - Necesarios para modelar los aspectos dinámicos.
+  - Especificación de una comunicación entre objetos que transmite información con la expectativa de que se desencadenará una actividad.
+  - Tipos de acciones en UML:
+    - **Llamada**: Invocación de un método.
+    - **Retorno**: Respuesta de una llamada.
+    - **Envío**: Envío de una señal.
+    - **Creación**: Instanciación de un objeto.
+    - **Destrucción**: Eliminación de un objeto.
 
-- **Diagramas de Vista Global de la Interacción**: Tipo especial de diagramas de actividad donde cada nodo se refiere a otras interacciones.
-  - **Ejemplo**: Resumen de todas las interacciones de un sistema de comercio electrónico.
+#### Diagramas de Secuencia
+- **Características y Elementos**:
+  - **Objetos**: Colocados en la parte superior del diagrama (eje X).
+  - **Mensajes**: Colocados a lo largo del eje Y en orden de sucesión en el tiempo.
+  - **Línea de Vida**: Representa la existencia de un objeto a lo largo del tiempo.
+  - **Foco de Control**: Representa el período durante el cual un objeto ejecuta una acción.
+  - **Fragmentos Combinados**: Modelan estructuras de control como alternativas y bucles.
 
-- **Diagramas de Tiempos**: Destacan aspectos de tiempo real de la interacción.
-  - **Ejemplo**: Sincronización de mensajes en un sistema de monitoreo en tiempo real.
+- **Cómo Crear un Diagrama de Secuencia**:
+  1. Establecer el contexto de la interacción.
+  2. Colocar los objetos que participan en la interacción en la parte superior del diagrama.
+  3. Colocar los mensajes que los objetos envían y reciben a lo largo del eje Y, en orden de sucesión en el tiempo.
+  4. Si es necesario, visualizar el anidamiento de mensajes o el intervalo de tiempo en el que tiene lugar la computación.
+  5. Especificar restricciones de tiempo o espacio si es necesario.
+
+- **Ejemplo**: Interacción entre `Usuario`, `Sistema`, y `Base de Datos` para el proceso de autenticación.
+
+#### Diagramas de Comunicación
+- **Características y Elementos**:
+  - **Objetos**: Colocados como nodos del grafo.
+  - **Enlaces**: Conexiones entre objetos.
+  - **Mensajes**: Comunicación entre objetos con numeración de secuencia.
+
+- **Cómo Crear un Diagrama de Comunicación**:
+  1. Establecer el contexto de la interacción.
+  2. Colocar los objetos que participan en la colaboración como nodos del grafo.
+  3. Representar los enlaces que conectan esos objetos como arcos del grafo.
+  4. Adornar los enlaces con los mensajes que envían y reciben los objetos.
+  5. Establecer la numeración de secuencia para indicar el orden temporal de los mensajes.
+
+- **Ejemplo**: Interacción estructural entre `Cliente`, `Vendedor`, y `Sistema de Inventario`.
+
+#### Diagramas de Vista Global de la Interacción
+- Tipo especial de diagramas de actividad donde cada nodo se refiere a otras interacciones.
+- **Ejemplo**: Resumen de todas las interacciones de un sistema de comercio electrónico.
+
+#### Diagramas de Tiempos
+- Destacan aspectos de tiempo real de la interacción.
+- **Ejemplo**: Sincronización de mensajes en un sistema de monitoreo en tiempo real.
 
 ---
 
@@ -156,14 +190,29 @@
 ### Conceptos Básicos
 - **Eventos**: Acontecimientos que ocurren y ocupan un lugar en el tiempo y espacio.
   - Tipos: Síncronos (llamadas), Asíncronos (señales, paso del tiempo, cambio de estado).
-- **Estado**: Momento en la vida de un objeto en el que se satisface alguna condición.
-- **Transición**: Relación entre estados con evento de disparo, condición de guarda y acción.
+- **Estado**: Momento en la vida de un objeto en el que se satisface alguna condición, realiza alguna actividad o espera algún evento.
+- **Transición**: Relación entre dos estados que indica que un objeto realiza ciertas acciones para pasar de un estado a otro.
+  - **Estado origen**: Estado del que parte dicha transición.
+  - **Evento de disparo**: Provoca la transición al estado destino.
+  - **Condición de guarda**: Expresión booleana que se activa por la recepción de un evento.
+  - **Acción**: Computación atómica ejecutable que actúa sobre el objeto asociado a la máquina de estados.
+  - **Estado destino**: El estado donde finaliza la transición.
 
 ### Diagramas de Estados
-- Modelan la secuencia de estados de un objeto.
-- Útiles para objetos reactivos con ciclos de vida bien definidos.
+- Muestran una máquina de estados que describe la secuencia de estados por las que pasa un objeto a lo largo de su vida en respuesta a eventos, junto con la respuesta a esos eventos.
+- Los diagramas de estados pueden asociarse a clases, casos de uso o sistemas completos para modelar la dinámica de un objeto individual (Objeto Reactivo).
+- Útiles para objetos que tienen un ciclo de vida bien definido cuyo comportamiento se ve afectado por su pasado.
 - **Ejemplo**: Un `Pedido` en una tienda online puede tener estados como "Pendiente", "Procesando", "Enviado", "Entregado".
 
+### Ejemplo de una Máquina de Estados
+```plantuml
+@startuml
+[*] --> Pendiente
+Pendiente -> Procesando : Confirmar
+Procesando -> Enviado : Enviar
+Enviado -> Entregado : Recibir
+Entregado -> [*]
+@enduml
 ---
 
 ## Diagramas de Actividades
