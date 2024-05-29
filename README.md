@@ -204,15 +204,6 @@
 - Útiles para objetos que tienen un ciclo de vida bien definido cuyo comportamiento se ve afectado por su pasado.
 - **Ejemplo**: Un `Pedido` en una tienda online puede tener estados como "Pendiente", "Procesando", "Enviado", "Entregado".
 
-### Ejemplo de una Máquina de Estados
-```plantuml
-@startuml
-[*] --> Pendiente
-Pendiente -> Procesando : Confirmar
-Procesando -> Enviado : Enviar
-Enviado -> Entregado : Recibir
-Entregado -> [*]
-@enduml
 ---
 
 ## Diagramas de Actividades
