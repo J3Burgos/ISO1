@@ -65,6 +65,98 @@
   - **Dependencia**: Relación de uso que indica que un cambio en una clase puede afectar a otra. Ejemplo: `Pedido` depende de `Producto`.
   - **Generalización (Herencia)**: Relación “es-un” entre una clase general (padre) y una clase específica (hija). Ejemplo: `Vehículo` generaliza a `Coche` y `Moto`.
   - **Agregación**: Relación “todo/parte” que indica que una clase está compuesta por otras clases. Ejemplo: `Clase` tiene `Estudiantes`.
+# Ejemplo de Diagrama de Clases
+
+## Diagrama de Clases con Todas las Relaciones
+
+@startuml
+' Definición de clases con sus atributos y métodos
+class Empresa {
+  +nombre: String
+  +direccion: String
+  +registrarEmpleado(e: Empleado)
+  +generarReporte()
+}
+
+class Empleado {
+  +nombre: String
+  +id: int
+  +salario: float
+  +trabajar()
+  +tomarDescanso()
+}
+
+class Departamento {
+  +nombre: String
+  +codigo: String
+}
+
+class Proyecto {
+  +nombre: String
+  +codigo: String
+  +asignarEmpleado(e: Empleado)
+}
+
+class Cliente {
+  +nombre: String
+  +direccion: String
+}
+
+class Reporte {
+  +contenido: String
+  +generar()
+}
+
+class Tarea {
+  +descripcion: String
+  +estado: String
+  +asignarEmpleado(e: Empleado)
+}
+
+' Relaciones entre clases
+' Asociación (Empresa tiene Empleados)
+Empresa "1" -- "0..*" Empleado: emplea
+
+' Agregación (Departamento tiene Empleados, pero los Empleados pueden existir sin el Departamento)
+Departamento "1" o-- "0..*" Empleado: contiene
+
+' Composición (Proyecto contiene Tareas, las Tareas no pueden existir sin el Proyecto)
+Proyecto "1" *-- "0..*" Tarea: consta de
+
+' Herencia (Empleado es una subclase de Persona)
+Empleado <|-- Cliente
+
+' Dependencia (Reporte depende de Empleado para generarse)
+Reporte ..> Empleado: usa
+
+@enduml
+
+## Explicación de las Relaciones
+
+### Asociación
+- **Definición**: Relación estructural que indica que un objeto de una clase está conectado a uno o más objetos de otra clase.
+- **Ejemplo**: `Empresa` emplea a `Empleado`. Una empresa puede emplear múltiples empleados, pero los empleados pueden existir sin estar asociados a una empresa específica.
+- **Representación**: Línea sólida entre `Empresa` y `Empleado` con multiplicidad `1` y `0..*`.
+
+### Agregación
+- **Definición**: Relación “todo/parte” en la que la parte puede existir independientemente del todo.
+- **Ejemplo**: `Departamento` contiene `Empleado`. Un departamento puede contener múltiples empleados, pero los empleados pueden existir sin estar asociados a un departamento específico.
+- **Representación**: Línea con un diamante vacío en el extremo de `Departamento` y multiplicidad `1` y `0..*`.
+
+### Composición
+- **Definición**: Relación “todo/parte” fuerte en la que la parte no puede existir sin el todo.
+- **Ejemplo**: `Proyecto` consta de `Tarea`. Un proyecto puede tener múltiples tareas, pero las tareas no pueden existir sin el proyecto.
+- **Representación**: Línea con un diamante lleno en el extremo de `Proyecto` y multiplicidad `1` y `0..*`.
+
+### Herencia (Generalización)
+- **Definición**: Relación jerárquica que indica que una clase (subclase) hereda de otra clase (superclase).
+- **Ejemplo**: `Empleado` es una subclase de `Persona`. `Empleado` hereda atributos y métodos de `Persona`.
+- **Representación**: Línea con un triángulo vacío apuntando hacia la superclase `Empleado`.
+
+### Dependencia
+- **Definición**: Relación en la que una clase (cliente) depende de otra clase (proveedor) para realizar su función.
+- **Ejemplo**: `Reporte` depende de `Empleado` para generarse. Un reporte necesita información de empleados para ser generado.
+- **Representación**: Línea punteada con una flecha apuntando desde `Reporte` hacia `Empleado`.
 
 ### Notas, Estereotipos y Valores Etiquetados
 - **Notas**: Proporcionan información adicional sobre un elemento.
