@@ -1,0 +1,707 @@
+Aquí tienes 100 preguntas más complicadas basadas en el temario:
+
+1. En el contexto del diseño de software, ¿qué se entiende por "ingeniería directa"?
+A. Transformar código en un modelo
+B. Transformar un modelo en código a través de una correspondencia con un lenguaje de implementación
+C. Identificar las reglas de correspondencia modelo-lenguaje
+D. Crear diagramas de despliegue
+ANSWER: B
+
+2. ¿Cuál de las siguientes NO es una relación que se puede modelar en un diagrama de clases?
+A. Asociación
+B. Dependencia
+C. Generalización
+D. Ejecución
+ANSWER: D
+
+3. ¿Qué describe el término "mecanismos comunes" en UML?
+A. Herramientas para la implementación del código
+B. Elementos adicionales como notas, estereotipos y valores etiquetados que enriquecen los diagramas
+C. Métodos para modelar el comportamiento dinámico del sistema
+D. Técnicas de prueba de software
+ANSWER: B
+
+4. En UML, ¿qué representa un "estereotipo"?
+A. Un tipo especial de nota
+B. Una especificación de comunicación entre objetos
+C. Una extensión del vocabulario UML que proporciona un significado adicional a los elementos del modelo
+D. Un tipo de clase abstracta
+ANSWER: C
+
+5. ¿Cuál es el propósito de un diagrama de estructura compuesta?
+A. Mostrar la estructura interna de una clase o colaboración
+B. Representar el flujo de control de actividades
+C. Modelar la interacción entre objetos en tiempo real
+D. Definir casos de uso
+ANSWER: A
+
+6. ¿Qué diferencia hay entre una asociación y una agregación en UML?
+A. La agregación es una relación "todo/parte" más débil que la composición
+B. La asociación es una relación de uso temporal entre clases
+C. La agregación implica una herencia entre las clases
+D. La asociación siempre es bidireccional, mientras que la agregación es unidireccional
+ANSWER: A
+
+7. ¿Qué es un "fragmento combinado" en los diagramas de secuencia?
+A. Un elemento que permite modelar estructuras de control como alternativas y bucles
+B. Un tipo especial de mensaje
+C. Un enlace entre objetos
+D. Un flujo de control de actividades
+ANSWER: A
+
+8. En los diagramas de estado, ¿qué representa una "condición de guarda"?
+A. Un mensaje enviado entre objetos
+B. Una acción que se ejecuta al ingresar a un estado
+C. Una expresión booleana que determina si una transición puede ocurrir
+D. Un estado temporal
+ANSWER: C
+
+9. ¿Qué se entiende por "interacción" en el contexto de UML?
+A. La comunicación entre objetos a través de mensajes en un escenario específico
+B. La estructura interna de una clase
+C. Un tipo de diagrama de casos de uso
+D. La ejecución de una operación
+ANSWER: A
+
+10. ¿Qué tipo de diagrama UML es útil para modelar máquinas de estado?
+A. Diagrama de Clases
+B. Diagrama de Tiempos
+C. Diagrama de Estados
+D. Diagrama de Paquetes
+ANSWER: C
+
+11. ¿Cuál es el uso principal de los diagramas de actividad en UML?
+A. Modelar la estructura estática del sistema
+B. Representar el flujo de control de actividades y procesos
+C. Mostrar la interacción entre objetos
+D. Definir la estructura interna de los paquetes
+ANSWER: B
+
+12. ¿Qué representa una "acción" en un diagrama de actividad?
+A. Un estado temporal
+B. Una computación atómica ejecutable que puede cambiar el estado de un objeto
+C. Un enlace entre objetos
+D. Un mensaje enviado entre objetos
+ANSWER: B
+
+13. ¿Cuál es la diferencia entre un diagrama de secuencia y un diagrama de comunicación?
+A. Los diagramas de secuencia muestran el orden temporal de los mensajes, mientras que los de comunicación destacan la organización estructural de los objetos
+B. Los diagramas de secuencia son bidimensionales y los de comunicación unidimensionales
+C. Los diagramas de secuencia representan la estructura estática, y los de comunicación el comportamiento dinámico
+D. Los diagramas de secuencia no utilizan mensajes, a diferencia de los de comunicación
+ANSWER: A
+
+14. En UML, ¿qué se entiende por "ingeniería inversa"?
+A. Transformar un modelo en código
+B. Transformar código en un modelo
+C. Diseñar la estructura interna de un sistema
+D. Crear diagramas de despliegue
+ANSWER: B
+
+15. ¿Cuál es la función de un "foco de control" en un diagrama de secuencia?
+A. Indicar la secuencia de estados de un objeto
+B. Representar el período durante el cual un objeto está ejecutando una acción
+C. Mostrar la estructura interna de una clase
+D. Modelar la relación entre clases y objetos
+ANSWER: B
+
+16. ¿Qué se representa en un diagrama de despliegue en UML?
+A. La interacción entre objetos
+B. La estructura interna de una clase
+C. La configuración física del hardware y software del sistema
+D. El flujo de control de actividades
+ANSWER: C
+
+17. ¿Qué describe una "relación de uso" en UML?
+A. Una asociación temporal entre clases
+B. Una dependencia en la que un cambio en una clase puede afectar a otra
+C. Una herencia entre clases
+D. Un enlace entre objetos
+ANSWER: B
+
+18. ¿Qué se entiende por "modelo de dominio" en el contexto de UML?
+A. Un diagrama que representa la estructura estática del sistema
+B. Un modelo que describe los conceptos y relaciones del dominio del problema
+C. Un diagrama que muestra el flujo de control de actividades
+D. Un conjunto de diagramas de secuencia
+ANSWER: B
+
+19. ¿Cuál es el propósito de una "nota" en UML?
+A. Definir una nueva clase
+B. Proporcionar información adicional sobre un elemento del modelo
+C. Representar la interacción entre objetos
+D. Modelar el flujo de control de actividades
+ANSWER: B
+
+20. ¿Qué es un "tipo compuesto" en UML?
+A. Una clase que agrupa varios tipos de datos
+B. Un diagrama que muestra la estructura interna de una clase
+C. Un tipo de diagrama de actividad
+D. Un elemento que modela enumeraciones y otros tipos de datos compuestos
+ANSWER: D
+
+21. ¿Cuál es la función de los "valores etiquetados" en UML?
+A. Proporcionar información adicional sobre las relaciones entre clases
+B. Definir los atributos de una clase
+C. Añadir restricciones y características específicas a los elementos del modelo
+D. Representar el flujo de control de actividades
+ANSWER: C
+
+22. ¿Qué representa un "diagrama de máquinas de estados" en UML?
+A. La estructura estática del sistema
+B. La interacción entre objetos
+C. La secuencia de estados de un objeto a lo largo del tiempo
+D. El flujo de control de actividades
+ANSWER: C
+
+23. ¿Qué es una "máquina de estados finitos"?
+A. Un modelo que describe un sistema con un número finito de estados y transiciones
+B. Un diagrama que muestra la estructura interna de una clase
+C. Un tipo de diagrama de despliegue
+D. Una herramienta de prueba de software
+ANSWER: A
+
+24. ¿Cuál es el propósito de un "diagrama de vista global de la interacción"?
+A. Modelar la estructura interna de una clase
+B. Mostrar la configuración física del hardware y software del sistema
+C. Representar un resumen de las interacciones en un sistema
+D. Definir casos de uso
+ANSWER: C
+
+25. ¿Qué es un "paquete" en UML?
+A. Una clase especial que agrupa varios atributos
+B. Un contenedor que organiza elementos del modelo
+C. Un tipo de relación entre clases
+D. Un elemento que modela la interacción entre objetos
+ANSWER: B
+
+26. ¿Qué diferencia hay entre una "asociación" y una "dependencia" en UML?
+A. La asociación es una relación estructural, mientras que la dependencia es una relación de uso
+B. La dependencia es bidireccional y la asociación unidireccional
+C. La asociación implica herencia entre clases
+D. No hay diferencia significativa entre ambos términos
+ANSWER: A
+
+27. ¿Qué representa un "diagrama de componentes" en UML?
+A. La interacción entre objetos
+B. La estructura interna de una clase
+C. La configuración física del hardware y software del sistema
+D. La organización y relaciones entre componentes de software
+ANSWER: D
+
+28. ¿Cuál es la función de un "diagrama de interacción" en UML?
+A. Modelar la estructura estática del sistema
+B. Representar la comunicación y el flujo de control entre objetos
+C. Mostrar la configuración física del hardware y software del sistema
+D. Definir los casos de uso del sistema
+ANSWER: B
+
+29. ¿Qué es una "clase abstracta" en UML?
+A. Una clase que no puede instanciarse directamente y sirve como base para otras clases
+B. Una clase que agrupa varios tipos de datos
+C. Una relación estructural entre clases
+D. Un diagrama que muestra la interacción entre objetos
+ANSWER: A
+
+30. ¿Qué representa un "diagrama de actividades" en UML?
+A. La estructura estática del sistema
+B. El flujo de control de actividades y procesos
+C. La
+
+ interacción entre objetos
+D. La secuencia de estados de un objeto
+ANSWER: B
+
+31. ¿Qué es una "interfaz" en UML?
+A. Una clase especial que define un contrato que otras clases deben implementar
+B. Una relación estructural entre clases
+C. Un diagrama que muestra la estructura interna de una clase
+D. Un contenedor que organiza elementos del modelo
+ANSWER: A
+
+32. ¿Cuál es el propósito de un "diagrama de despliegue" en UML?
+A. Modelar la interacción entre objetos
+B. Mostrar la configuración física del hardware y software del sistema
+C. Representar la secuencia de estados de un objeto
+D. Definir los casos de uso del sistema
+ANSWER: B
+
+33. ¿Qué representa una "generalización" en UML?
+A. Una relación de herencia entre una clase general y una clase específica
+B. Una relación estructural entre clases
+C. Una ejecución no atómica en curso
+D. Un flujo de control de actividades
+ANSWER: A
+
+34. ¿Qué es una "nota" en UML?
+A. Un mensaje enviado entre objetos
+B. Una especificación de comunicación entre objetos
+C. Un elemento que proporciona información adicional sobre otro elemento
+D. Un estado de un objeto
+ANSWER: C
+
+35. ¿Qué tipo de diagrama en UML se utiliza para modelar la estructura interna de una clase o colaboración?
+A. Diagrama de Clases
+B. Diagrama de Objetos
+C. Diagrama de Estructura Compuesta
+D. Diagrama de Actividad
+ANSWER: C
+
+36. ¿Qué representa un "diagrama de comunicación" en UML?
+A. La estructura estática del sistema
+B. La organización estructural de los objetos que participan en una interacción
+C. La secuencia de estados de un objeto
+D. El flujo de control de actividades
+ANSWER: B
+
+37. ¿Qué es una "dependencia" en UML?
+A. Una relación de uso en la que un cambio en una clase puede afectar a otra
+B. Una asociación temporal entre clases
+C. Una herencia entre clases
+D. Un enlace entre objetos
+ANSWER: A
+
+38. ¿Qué describe un "modelo de dominio" en UML?
+A. Un diagrama que representa la estructura estática del sistema
+B. Un modelo que describe los conceptos y relaciones del dominio del problema
+C. Un diagrama que muestra el flujo de control de actividades
+D. Un conjunto de diagramas de secuencia
+ANSWER: B
+
+39. ¿Qué se entiende por "interacción" en UML?
+A. La estructura interna de una clase
+B. La comunicación entre objetos a través de mensajes en un escenario específico
+C. Un tipo de diagrama de casos de uso
+D. La ejecución de una operación
+ANSWER: B
+
+40. ¿Cuál es la función de un "foco de control" en un diagrama de secuencia?
+A. Mostrar la estructura interna de una clase
+B. Representar el período durante el cual un objeto está ejecutando una acción
+C. Indicar la secuencia de estados de un objeto
+D. Modelar la relación entre clases y objetos
+ANSWER: B
+
+41. ¿Qué es un "paquete" en UML?
+A. Un tipo de relación entre clases
+B. Un contenedor que organiza elementos del modelo
+C. Un elemento que modela la interacción entre objetos
+D. Una clase especial que agrupa varios atributos
+ANSWER: B
+
+42. ¿Qué diferencia hay entre una "asociación" y una "dependencia" en UML?
+A. La asociación es una relación estructural, mientras que la dependencia es una relación de uso
+B. La dependencia es bidireccional y la asociación unidireccional
+C. La asociación implica herencia entre clases
+D. No hay diferencia significativa entre ambos términos
+ANSWER: A
+
+43. ¿Qué representa un "diagrama de componentes" en UML?
+A. La interacción entre objetos
+B. La organización y relaciones entre componentes de software
+C. La estructura interna de una clase
+D. La configuración física del hardware y software del sistema
+ANSWER: B
+
+44. ¿Cuál es la función de un "diagrama de interacción" en UML?
+A. Mostrar la configuración física del hardware y software del sistema
+B. Modelar la estructura estática del sistema
+C. Representar la comunicación y el flujo de control entre objetos
+D. Definir los casos de uso del sistema
+ANSWER: C
+
+45. ¿Qué es una "clase abstracta" en UML?
+A. Una relación estructural entre clases
+B. Un diagrama que muestra la interacción entre objetos
+C. Una clase que agrupa varios tipos de datos
+D. Una clase que no puede instanciarse directamente y sirve como base para otras clases
+ANSWER: D
+
+46. ¿Qué representa un "diagrama de actividades" en UML?
+A. El flujo de control de actividades y procesos
+B. La interacción entre objetos
+C. La estructura estática del sistema
+D. La secuencia de estados de un objeto
+ANSWER: A
+
+47. ¿Qué es una "interfaz" en UML?
+A. Un diagrama que muestra la estructura interna de una clase
+B. Una clase especial que define un contrato que otras clases deben implementar
+C. Un contenedor que organiza elementos del modelo
+D. Una relación estructural entre clases
+ANSWER: B
+
+48. ¿Cuál es el propósito de un "diagrama de despliegue" en UML?
+A. Definir los casos de uso del sistema
+B. Mostrar la configuración física del hardware y software del sistema
+C. Modelar la interacción entre objetos
+D. Representar la secuencia de estados de un objeto
+ANSWER: B
+
+49. ¿Qué representa una "generalización" en UML?
+A. Una ejecución no atómica en curso
+B. Una relación de herencia entre una clase general y una clase específica
+C. Un flujo de control de actividades
+D. Una relación estructural entre clases
+ANSWER: B
+
+50. ¿Qué es una "nota" en UML?
+A. Una especificación de comunicación entre objetos
+B. Un mensaje enviado entre objetos
+C. Un estado de un objeto
+D. Un elemento que proporciona información adicional sobre otro elemento
+ANSWER: D
+
+51. ¿Qué tipo de diagrama en UML se utiliza para modelar la estructura interna de una clase o colaboración?
+A. Diagrama de Objetos
+B. Diagrama de Estructura Compuesta
+C. Diagrama de Clases
+D. Diagrama de Actividad
+ANSWER: B
+
+52. ¿Qué representa un "diagrama de comunicación" en UML?
+A. La organización estructural de los objetos que participan en una interacción
+B. La estructura estática del sistema
+C. La secuencia de estados de un objeto
+D. El flujo de control de actividades
+ANSWER: A
+
+53. ¿Qué es una "dependencia" en UML?
+A. Una herencia entre clases
+B. Una relación de uso en la que un cambio en una clase puede afectar a otra
+C. Una asociación temporal entre clases
+D. Un enlace entre objetos
+ANSWER: B
+
+54. ¿Qué describe un "modelo de dominio" en UML?
+A. Un diagrama que muestra el flujo de control de actividades
+B. Un conjunto de diagramas de secuencia
+C. Un modelo que describe los conceptos y relaciones del dominio del problema
+D. Un diagrama que representa la estructura estática del sistema
+ANSWER: C
+
+55. ¿Qué se entiende por "interacción" en UML?
+A. La estructura interna de una clase
+B. Un tipo de diagrama de casos de uso
+C. La ejecución de una operación
+D. La comunicación entre objetos a través de mensajes en un escenario específico
+ANSWER: D
+
+56. ¿Cuál es la función de un "foco de control" en un diagrama de secuencia?
+A. Indicar la secuencia de estados de un objeto
+B. Mostrar la estructura interna de una clase
+C. Modelar la relación entre clases y objetos
+D. Representar el período durante el cual un objeto está ejecutando una acción
+ANSWER: D
+
+57. ¿Qué es un "paquete" en UML?
+A. Un contenedor que organiza elementos del modelo
+B. Un tipo de relación entre clases
+C. Un elemento que modela la interacción entre objetos
+D. Una clase especial que agrupa varios atributos
+ANSWER: A
+
+58. ¿Qué diferencia hay entre una "asociación" y una "dependencia" en UML?
+A. La dependencia es bidireccional y la asociación unidireccional
+B. La asociación es una relación estructural, mientras que la dependencia es una relación de uso
+C. No hay diferencia significativa entre ambos términos
+D. La asociación implica herencia entre clases
+ANSWER: B
+
+59. ¿Qué representa un "diagrama de componentes" en UML?
+A. La organización y relaciones entre componentes de software
+B. La interacción entre objetos
+C. La estructura interna de una clase
+D. La configuración física del hardware y software del sistema
+ANSWER: A
+
+60. ¿Cuál es la función de un "diagrama de interacción" en UML?
+A. Modelar la estructura estática del sistema
+B. Definir los casos de uso del sistema
+C. Mostrar la configuración física del hardware y software del sistema
+D. Representar la comunicación y el flujo de control entre objetos
+ANSWER: D
+
+61. ¿Qué es una "clase abstracta" en UML?
+A. Una clase que agrupa varios tipos de datos
+B. Una relación estructural entre clases
+C. Una clase que no puede instanciarse directamente y sirve como base para otras clases
+D.
+
+ Un diagrama que muestra la interacción entre objetos
+ANSWER: C
+
+62. ¿Qué representa un "diagrama de actividades" en UML?
+A. La interacción entre objetos
+B. El flujo de control de actividades y procesos
+C. La estructura estática del sistema
+D. La secuencia de estados de un objeto
+ANSWER: B
+
+63. ¿Qué es una "interfaz" en UML?
+A. Una relación estructural entre clases
+B. Un contenedor que organiza elementos del modelo
+C. Un diagrama que muestra la estructura interna de una clase
+D. Una clase especial que define un contrato que otras clases deben implementar
+ANSWER: D
+
+64. ¿Cuál es el propósito de un "diagrama de despliegue" en UML?
+A. Mostrar la configuración física del hardware y software del sistema
+B. Definir los casos de uso del sistema
+C. Modelar la interacción entre objetos
+D. Representar la secuencia de estados de un objeto
+ANSWER: A
+
+65. ¿Qué representa una "generalización" en UML?
+A. Un flujo de control de actividades
+B. Una relación de herencia entre una clase general y una clase específica
+C. Una relación estructural entre clases
+D. Una ejecución no atómica en curso
+ANSWER: B
+
+66. ¿Qué es una "nota" en UML?
+A. Un estado de un objeto
+B. Un mensaje enviado entre objetos
+C. Una especificación de comunicación entre objetos
+D. Un elemento que proporciona información adicional sobre otro elemento
+ANSWER: D
+
+67. ¿Qué tipo de diagrama en UML se utiliza para modelar la estructura interna de una clase o colaboración?
+A. Diagrama de Clases
+B. Diagrama de Objetos
+C. Diagrama de Estructura Compuesta
+D. Diagrama de Actividad
+ANSWER: C
+
+68. ¿Qué representa un "diagrama de comunicación" en UML?
+A. La organización estructural de los objetos que participan en una interacción
+B. La estructura estática del sistema
+C. La secuencia de estados de un objeto
+D. El flujo de control de actividades
+ANSWER: A
+
+69. ¿Qué es una "dependencia" en UML?
+A. Una herencia entre clases
+B. Un enlace entre objetos
+C. Una relación de uso en la que un cambio en una clase puede afectar a otra
+D. Una asociación temporal entre clases
+ANSWER: C
+
+70. ¿Qué describe un "modelo de dominio" en UML?
+A. Un modelo que describe los conceptos y relaciones del dominio del problema
+B. Un diagrama que representa la estructura estática del sistema
+C. Un conjunto de diagramas de secuencia
+D. Un diagrama que muestra el flujo de control de actividades
+ANSWER: A
+
+71. ¿Qué se entiende por "interacción" en UML?
+A. Un tipo de diagrama de casos de uso
+B. La estructura interna de una clase
+C. La comunicación entre objetos a través de mensajes en un escenario específico
+D. La ejecución de una operación
+ANSWER: C
+
+72. ¿Cuál es la función de un "foco de control" en un diagrama de secuencia?
+A. Mostrar la estructura interna de una clase
+B. Modelar la relación entre clases y objetos
+C. Representar el período durante el cual un objeto está ejecutando una acción
+D. Indicar la secuencia de estados de un objeto
+ANSWER: C
+
+73. ¿Qué es un "paquete" en UML?
+A. Un tipo de relación entre clases
+B. Una clase especial que agrupa varios atributos
+C. Un contenedor que organiza elementos del modelo
+D. Un elemento que modela la interacción entre objetos
+ANSWER: C
+
+74. ¿Qué diferencia hay entre una "asociación" y una "dependencia" en UML?
+A. La asociación es una relación estructural, mientras que la dependencia es una relación de uso
+B. No hay diferencia significativa entre ambos términos
+C. La asociación implica herencia entre clases
+D. La dependencia es bidireccional y la asociación unidireccional
+ANSWER: A
+
+75. ¿Qué representa un "diagrama de componentes" en UML?
+A. La estructura interna de una clase
+B. La interacción entre objetos
+C. La organización y relaciones entre componentes de software
+D. La configuración física del hardware y software del sistema
+ANSWER: C
+
+76. ¿Cuál es la función de un "diagrama de interacción" en UML?
+A. Mostrar la configuración física del hardware y software del sistema
+B. Modelar la estructura estática del sistema
+C. Representar la comunicación y el flujo de control entre objetos
+D. Definir los casos de uso del sistema
+ANSWER: C
+
+77. ¿Qué es una "clase abstracta" en UML?
+A. Una clase que agrupa varios tipos de datos
+B. Una relación estructural entre clases
+C. Una clase que no puede instanciarse directamente y sirve como base para otras clases
+D. Un diagrama que muestra la interacción entre objetos
+ANSWER: C
+
+78. ¿Qué representa un "diagrama de actividades" en UML?
+A. La interacción entre objetos
+B. El flujo de control de actividades y procesos
+C. La estructura estática del sistema
+D. La secuencia de estados de un objeto
+ANSWER: B
+
+79. ¿Qué es una "interfaz" en UML?
+A. Una relación estructural entre clases
+B. Un contenedor que organiza elementos del modelo
+C. Un diagrama que muestra la estructura interna de una clase
+D. Una clase especial que define un contrato que otras clases deben implementar
+ANSWER: D
+
+80. ¿Cuál es el propósito de un "diagrama de despliegue" en UML?
+A. Mostrar la configuración física del hardware y software del sistema
+B. Definir los casos de uso del sistema
+C. Modelar la interacción entre objetos
+D. Representar la secuencia de estados de un objeto
+ANSWER: A
+
+81. ¿Qué representa una "generalización" en UML?
+A. Un flujo de control de actividades
+B. Una relación de herencia entre una clase general y una clase específica
+C. Una relación estructural entre clases
+D. Una ejecución no atómica en curso
+ANSWER: B
+
+82. ¿Qué es una "nota" en UML?
+A. Un estado de un objeto
+B. Un mensaje enviado entre objetos
+C. Una especificación de comunicación entre objetos
+D. Un elemento que proporciona información adicional sobre otro elemento
+ANSWER: D
+
+83. ¿Qué tipo de diagrama en UML se utiliza para modelar la estructura interna de una clase o colaboración?
+A. Diagrama de Clases
+B. Diagrama de Objetos
+C. Diagrama de Estructura Compuesta
+D. Diagrama de Actividad
+ANSWER: C
+
+84. ¿Qué representa un "diagrama de comunicación" en UML?
+A. La organización estructural de los objetos que participan en una interacción
+B. La estructura estática del sistema
+C. La secuencia de estados de un objeto
+D. El flujo de control de actividades
+ANSWER: A
+
+85. ¿Qué es una "dependencia" en UML?
+A. Una herencia entre clases
+B. Un enlace entre objetos
+C. Una relación de uso en la que un cambio en una clase puede afectar a otra
+D. Una asociación temporal entre clases
+ANSWER: C
+
+86. ¿Qué describe un "modelo de dominio" en UML?
+A. Un modelo que describe los conceptos y relaciones del dominio del problema
+B. Un diagrama que representa la estructura estática del sistema
+C. Un conjunto de diagramas de secuencia
+D. Un diagrama que muestra el flujo de control de actividades
+ANSWER: A
+
+87. ¿Qué se entiende por "interacción" en UML?
+A. Un tipo de diagrama de casos de uso
+B. La estructura interna de una clase
+C. La comunicación entre objetos a través de mensajes en un escenario específico
+D. La ejecución de una operación
+ANSWER: C
+
+88. ¿Cuál es la función de un "foco de control" en un diagrama de secuencia?
+A. Mostrar la estructura interna de una clase
+B. Modelar la relación entre clases y objetos
+C. Representar el período durante el cual un objeto está ejecutando una acción
+D. Indicar la secuencia de estados de un objeto
+ANSWER: C
+
+89. ¿Qué es un "paquete" en UML?
+A. Un tipo de relación entre clases
+B. Una clase especial que agrupa varios atributos
+C. Un contenedor que organiza elementos del modelo
+D. Un elemento que modela la interacción entre objetos
+ANSWER: C
+
+90. ¿Qué diferencia hay entre una "asociación" y una "dependencia" en UML?
+A. La asociación es una relación estructural, mientras que la dependencia es una relación de uso
+B. No hay diferencia significativa entre ambos términos
+C. La asociación implica herencia entre clases
+D. La dependencia es bidireccional y la asociación unidireccional
+ANSWER: A
+
+91. ¿Qué representa un "diagrama de componentes" en UML?
+A. La estructura interna de una clase
+B. La interacción entre objetos
+C. La organización y relaciones entre componentes de software
+D. La configuración física del hardware y software del sistema
+ANSWER: C
+
+92. ¿Cuál es la función de un "diagrama de interacción" en UML?
+A. Mostrar la configuración física del hardware y software del sistema
+B. Modelar la estructura estática del sistema
+C. Representar la comunicación y el flujo de control entre objetos
+D. Definir los casos de uso del sistema
+ANSWER: C
+
+93. ¿Qué es una
+
+ "clase abstracta" en UML?
+A. Una clase que agrupa varios tipos de datos
+B. Una relación estructural entre clases
+C. Una clase que no puede instanciarse directamente y sirve como base para otras clases
+D. Un diagrama que muestra la interacción entre objetos
+ANSWER: C
+
+94. ¿Qué representa un "diagrama de actividades" en UML?
+A. La interacción entre objetos
+B. El flujo de control de actividades y procesos
+C. La estructura estática del sistema
+D. La secuencia de estados de un objeto
+ANSWER: B
+
+95. ¿Qué es una "interfaz" en UML?
+A. Una relación estructural entre clases
+B. Un contenedor que organiza elementos del modelo
+C. Un diagrama que muestra la estructura interna de una clase
+D. Una clase especial que define un contrato que otras clases deben implementar
+ANSWER: D
+
+96. ¿Cuál es el propósito de un "diagrama de despliegue" en UML?
+A. Mostrar la configuración física del hardware y software del sistema
+B. Definir los casos de uso del sistema
+C. Modelar la interacción entre objetos
+D. Representar la secuencia de estados de un objeto
+ANSWER: A
+
+97. ¿Qué representa una "generalización" en UML?
+A. Un flujo de control de actividades
+B. Una relación de herencia entre una clase general y una clase específica
+C. Una relación estructural entre clases
+D. Una ejecución no atómica en curso
+ANSWER: B
+
+98. ¿Qué es una "nota" en UML?
+A. Un estado de un objeto
+B. Un mensaje enviado entre objetos
+C. Una especificación de comunicación entre objetos
+D. Un elemento que proporciona información adicional sobre otro elemento
+ANSWER: D
+
+99. ¿Qué tipo de diagrama en UML se utiliza para modelar la estructura interna de una clase o colaboración?
+A. Diagrama de Clases
+B. Diagrama de Objetos
+C. Diagrama de Estructura Compuesta
+D. Diagrama de Actividad
+ANSWER: C
+
+100. ¿Qué representa un "diagrama de comunicación" en UML?
+A. La organización estructural de los objetos que participan en una interacción
+B. La estructura estática del sistema
+C. La secuencia de estados de un objeto
+D. El flujo de control de actividades
+ANSWER: A

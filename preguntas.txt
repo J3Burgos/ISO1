@@ -1,0 +1,705 @@
+Aquí tienes las 100 preguntas tipo test con 4 posibles respuestas de acuerdo al temario proporcionado:
+
+1. ¿Qué es el diseño en el contexto de la ingeniería del software?
+A. Un conjunto de diagramas
+B. Un proceso creativo de transformación del problema en una solución
+C. La implementación del código
+D. La prueba del sistema
+ANSWER: B
+
+2. ¿Qué se utiliza para representar los aspectos estructurales de un sistema en UML?
+A. Diagramas de Secuencia
+B. Diagramas de Estados
+C. Diagramas de Clases
+D. Diagramas de Actividad
+ANSWER: C
+
+3. ¿Qué representa un diagrama de clases en UML?
+A. La interacción entre objetos
+B. El flujo de control de actividades
+C. La estructura estática del sistema
+D. El comportamiento dinámico del sistema
+ANSWER: C
+
+4. ¿Cuál es el propósito de un diagrama de paquetes?
+A. Mostrar la estructura interna de una clase
+B. Organizar los elementos de los modelos para facilitar su comprensión
+C. Modelar la interacción entre objetos
+D. Definir casos de uso
+ANSWER: B
+
+5. ¿Qué representa una asociación en un diagrama de clases?
+A. Una relación estructural entre clases
+B. Un estado de un objeto
+C. Un mensaje enviado entre objetos
+D. Un flujo de control de actividades
+ANSWER: A
+
+6. ¿Qué tipo de relación indica que un cambio en una clase puede afectar a otra?
+A. Asociación
+B. Herencia
+C. Dependencia
+D. Agregación
+ANSWER: C
+
+7. ¿Cuál es la característica principal de un diagrama de secuencia?
+A. La organización estructural de los objetos
+B. El orden temporal de los mensajes
+C. La estructura estática del sistema
+D. El flujo de control de actividades
+ANSWER: B
+
+8. ¿Qué se modela con diagramas de actividad en UML?
+A. El comportamiento deseado del sistema
+B. Las interacciones entre objetos
+C. El flujo de control de actividades
+D. Los estados de un objeto
+ANSWER: C
+
+9. ¿Qué elemento de un diagrama de secuencia representa la existencia de un objeto a lo largo del tiempo?
+A. Mensaje
+B. Línea de vida
+C. Objeto
+D. Estado
+ANSWER: B
+
+10. ¿Cuál es la diferencia principal entre un diagrama de secuencia y un diagrama de comunicación?
+A. La cantidad de objetos que pueden modelar
+B. La forma de representar la interacción entre objetos
+C. La estructura interna de una clase
+D. La representación de estados de un objeto
+ANSWER: B
+
+11. ¿Qué tipo de diagrama en UML se centra en el estado cambiante de un sistema dirigido por eventos?
+A. Diagrama de Clases
+B. Diagrama de Objetos
+C. Diagrama de Estados
+D. Diagrama de Actividad
+ANSWER: C
+
+12. ¿Qué es una transición en un diagrama de estados?
+A. Un enlace entre objetos
+B. Una relación estructural
+C. Una relación entre dos estados
+D. Un mensaje enviado entre objetos
+ANSWER: C
+
+13. ¿Qué representa un estado en un diagrama de estados?
+A. Una ejecución no atómica en curso
+B. Un momento en la vida de un objeto en el que se satisface alguna condición
+C. Un mensaje enviado entre objetos
+D. Un flujo de control de actividades
+ANSWER: B
+
+14. ¿Qué se utiliza para modelar las interacciones entre objetos en UML?
+A. Diagramas de Casos de Uso
+B. Diagramas de Interacción
+C. Diagramas de Actividad
+D. Diagramas de Paquetes
+ANSWER: B
+
+15. ¿Qué tipo de evento puede disparar una transición de estado en UML?
+A. Evento Síncrono
+B. Evento Asíncrono
+C. Ambos
+D. Ninguno
+ANSWER: C
+
+16. ¿Qué se representa con un diagrama de objetos en UML?
+A. La estructura estática del sistema
+B. Un conjunto de instancias de los elementos encontrados en un diagrama de clases
+C. El flujo de control de actividades
+D. El comportamiento deseado del sistema
+ANSWER: B
+
+17. ¿Qué se entiende por “Responsabilidad” en el contexto del modelado de clases?
+A. Una relación estructural entre clases
+B. Un contrato u obligación de una clase
+C. Una ejecución no atómica en curso
+D. Una transición de estado
+ANSWER: B
+
+18. ¿Qué elemento en UML se utiliza para modelar tipos no cubiertos por UML 2?
+A. Clases
+B. Dependencias
+C. Generalizaciones
+D. DataTypes
+ANSWER: D
+
+19. ¿Qué es una agregación en un diagrama de clases?
+A. Una relación estructural entre clases
+B. Un tipo específico de asociación que representa una relación “todo/parte”
+C. Un enlace entre objetos
+D. Un mensaje enviado entre objetos
+ANSWER: B
+
+20. ¿Qué describe el concepto de “polimorfismo” en la herencia?
+A. La relación entre dos estados
+B. La capacidad de un método de una subclase de sustituir el método de la superclase
+C. Un enlace entre objetos
+D. Un flujo de control de actividades
+ANSWER: B
+
+21. ¿Qué elemento de un diagrama de comunicación se utiliza para indicar la secuencia de mensajes?
+A. Línea de vida
+B. Número de secuencia
+C. Estado
+D. Objeto
+ANSWER: B
+
+22. ¿Qué representa un diagrama de transición de estados?
+A. La estructura estática del sistema
+B. El flujo de control de actividades
+C. La secuencia de estados por los que pasa un objeto
+D. La organización estructural de los objetos
+ANSWER: C
+
+23. ¿Qué es un mensaje en un diagrama de secuencia?
+A. Una relación estructural entre clases
+B. Un enlace entre objetos
+C. Una especificación de comunicación entre objetos
+D. Una transición de estado
+ANSWER: C
+
+24. ¿Qué representa un diagrama de casos de uso?
+A. La estructura estática del sistema
+B. El comportamiento deseado del sistema sin especificar cómo se implementa
+C. El flujo de control de actividades
+D. La secuencia de estados por los que pasa un objeto
+ANSWER: B
+
+25. ¿Cuál es el propósito de los diagramas de despliegue en UML?
+A. Representar la interacción entre objetos
+B. Mostrar la configuración física del hardware y software del sistema
+C. Modelar el comportamiento dinámico del sistema
+D. Definir casos de uso
+ANSWER: B
+
+26. ¿Qué se utiliza para representar restricciones en UML?
+A. Notas
+B. Estereotipos
+C. Valores etiquetados
+D. Todas las anteriores
+ANSWER: D
+
+27. ¿Qué elemento en UML se utiliza para especificar un rango de valores permitidos?
+A. Clase
+B. DataType
+C. Enumeración
+D. Restricción
+ANSWER: D
+
+28. ¿Qué es un diagrama de estructura compuesta en UML?
+A. Un diagrama que muestra la estructura interna de una clase o colaboración
+B. Un diagrama que modela la interacción entre objetos
+C. Un diagrama que representa el flujo de control de actividades
+D. Un diagrama que define casos de uso
+ANSWER: A
+
+29. ¿Qué representa una dependencia en UML?
+A. Una relación estructural entre clases
+B. Una relación de uso en la que un cambio en una clase puede afectar a otra
+C. Una ejecución no atómica en curso
+D. Un flujo de control de actividades
+ANSWER: B
+
+30. ¿Qué es una nota en UML?
+A. Un contrato u obligación de una clase
+B. Un mensaje enviado entre objetos
+C. Un elemento que proporciona información adicional sobre otro elemento
+D. Un estado de un objeto
+ANSWER: C
+
+31. ¿Qué tipo de diagrama en UML se centra en el flujo de control de actividades?
+A. Diagrama de Clases
+B. Diagrama de Objetos
+C. Diagrama de Estados
+D. Diagrama de Actividad
+ANSWER: D
+
+32. ¿Qué se modela con un diagrama de comunicación?
+A. La estructura estática del sistema
+B. La organización estructural de los objetos que participan en una interacción
+C. El flujo de control de actividades
+D. El comportamiento deseado del sistema
+ANSWER: B
+
+33. ¿Qué representa un diagrama de vista global de la interacción?
+A. La estructura estática del sistema
+B. Un tipo especial de diagrama de actividad en el que cada nodo se refiere a otras interacciones
+C. El flujo de control de actividades
+D. El comportamiento deseado del sistema
+ANSWER: B
+
+34. ¿Qué es una máquina de estados en UML?
+A. Un conjunto de clases que colaboran para realizar un comportamiento
+B. Un conjunto de estados y transiciones que modelan el comportamiento de un objeto
+C. Un tipo especial de diagrama de actividad
+D. Un enlace entre objetos
+ANSWER: B
+
+35. ¿Qué tipo de diagrama en UML se utiliza para modelar la dinámica de un objeto individual?
+A. Diagrama de Clases
+B. Diagrama de Objetos
+C. Diagrama de Estados
+D. Diagrama de Actividad
+ANSWER: C
+
+36. ¿Qué representa una acción en un diagrama de estados?
+A. Una ejecución no atómica en curso
+B. Una computación atómica que actúa sobre el objeto asociado a la máquina de estados
+C. Un enlace entre objetos
+D. Un flujo de
+
+ control de actividades
+ANSWER: B
+
+37. ¿Qué es un fragmento combinado en un diagrama de secuencia?
+A. Un enlace entre objetos
+B. Un conjunto de mensajes que se agrupan para representar un comportamiento
+C. Una ejecución no atómica en curso
+D. Un flujo de control de actividades
+ANSWER: B
+
+38. ¿Qué representa una iteración en un diagrama de secuencia?
+A. Una relación estructural entre clases
+B. Un mensaje que se repite varias veces
+C. Un enlace entre objetos
+D. Un flujo de control de actividades
+ANSWER: B
+
+39. ¿Qué tipo de diagrama en UML se utiliza para modelar el flujo de trabajo de un negocio?
+A. Diagrama de Clases
+B. Diagrama de Objetos
+C. Diagrama de Actividad
+D. Diagrama de Estados
+ANSWER: C
+
+40. ¿Qué representa un evento de llamada en UML?
+A. Una relación estructural entre clases
+B. Una solicitud de invocación de una operación de un objeto
+C. Un enlace entre objetos
+D. Un flujo de control de actividades
+ANSWER: B
+
+41. ¿Qué es un nodo en un diagrama de despliegue?
+A. Un enlace entre objetos
+B. Un elemento que representa un recurso físico del sistema
+C. Un flujo de control de actividades
+D. Un estado de un objeto
+ANSWER: B
+
+42. ¿Qué tipo de diagrama en UML se utiliza para modelar la interacción en tiempo real?
+A. Diagrama de Clases
+B. Diagrama de Objetos
+C. Diagrama de Tiempos
+D. Diagrama de Actividad
+ANSWER: C
+
+43. ¿Qué se representa con un diagrama de estados en UML?
+A. La estructura estática del sistema
+B. La secuencia de estados por los que pasa un objeto
+C. El flujo de control de actividades
+D. La interacción entre objetos
+ANSWER: B
+
+44. ¿Qué tipo de diagrama en UML se utiliza para modelar el comportamiento deseado del sistema sin especificar cómo se implementa?
+A. Diagrama de Clases
+B. Diagrama de Casos de Uso
+C. Diagrama de Actividad
+D. Diagrama de Estados
+ANSWER: B
+
+45. ¿Qué representa un diagrama de interacción en UML?
+A. La estructura estática del sistema
+B. La organización estructural de los objetos que participan en una interacción
+C. La secuencia de estados por los que pasa un objeto
+D. El flujo de control de actividades
+ANSWER: B
+
+46. ¿Qué es un estado destino en un diagrama de estados?
+A. El estado del que parte una transición
+B. El estado en el que finaliza una transición
+C. Un enlace entre objetos
+D. Un flujo de control de actividades
+ANSWER: B
+
+47. ¿Qué representa un diagrama de transición de estados?
+A. La estructura estática del sistema
+B. El comportamiento deseado del sistema sin especificar cómo se implementa
+C. El flujo de control de actividades
+D. La secuencia de estados por los que pasa un objeto
+ANSWER: D
+
+48. ¿Qué es una condición de guarda en un diagrama de estados?
+A. Una relación estructural entre clases
+B. Una expresión booleana que se activa por la recepción de un evento
+C. Un enlace entre objetos
+D. Un flujo de control de actividades
+ANSWER: B
+
+49. ¿Qué tipo de diagrama en UML se utiliza para modelar la estructura interna de una clase o colaboración?
+A. Diagrama de Clases
+B. Diagrama de Objetos
+C. Diagrama de Estructura Compuesta
+D. Diagrama de Actividad
+ANSWER: C
+
+50. ¿Qué representa un enlace en un diagrama de interacción?
+A. Un camino a lo largo del cual un objeto puede enviar un mensaje a otro objeto
+B. Un estado de un objeto
+C. Una ejecución no atómica en curso
+D. Un flujo de control de actividades
+ANSWER: A
+
+51. ¿Qué tipo de diagrama en UML se utiliza para modelar la secuencia de estados por los que pasa un objeto?
+A. Diagrama de Clases
+B. Diagrama de Objetos
+C. Diagrama de Estados
+D. Diagrama de Actividad
+ANSWER: C
+
+52. ¿Qué representa una actividad en un diagrama de actividades?
+A. Una ejecución no atómica en curso
+B. Una relación estructural entre clases
+C. Un enlace entre objetos
+D. Un flujo de control de actividades
+ANSWER: A
+
+53. ¿Qué tipo de diagrama en UML se utiliza para modelar el comportamiento dinámico del sistema?
+A. Diagrama de Clases
+B. Diagrama de Objetos
+C. Diagrama de Interacción
+D. Diagrama de Despliegue
+ANSWER: C
+
+54. ¿Qué es un evento de transición en un diagrama de estados?
+A. Un enlace entre objetos
+B. Un acontecimiento que provoca el paso de un estado a otro
+C. Una ejecución no atómica en curso
+D. Un flujo de control de actividades
+ANSWER: B
+
+55. ¿Qué representa un diagrama de secuencia?
+A. La estructura estática del sistema
+B. El orden temporal de los mensajes en una interacción
+C. El flujo de control de actividades
+D. La secuencia de estados por los que pasa un objeto
+ANSWER: B
+
+56. ¿Qué es un objeto en UML?
+A. Un enlace entre clases
+B. Una instancia de una clase
+C. Una ejecución no atómica en curso
+D. Un flujo de control de actividades
+ANSWER: B
+
+57. ¿Qué tipo de diagrama en UML se utiliza para modelar el flujo de control de una operación?
+A. Diagrama de Clases
+B. Diagrama de Objetos
+C. Diagrama de Actividad
+D. Diagrama de Estados
+ANSWER: C
+
+58. ¿Qué representa un nodo en un diagrama de despliegue?
+A. Un recurso físico del sistema
+B. Un enlace entre objetos
+C. Una ejecución no atómica en curso
+D. Un flujo de control de actividades
+ANSWER: A
+
+59. ¿Qué tipo de diagrama en UML se utiliza para modelar la interacción entre objetos en un escenario?
+A. Diagrama de Clases
+B. Diagrama de Secuencia
+C. Diagrama de Objetos
+D. Diagrama de Actividad
+ANSWER: B
+
+60. ¿Qué representa una generalización en un diagrama de clases?
+A. Una relación estructural entre clases
+B. Una relación de herencia entre una clase general y una clase específica
+C. Un enlace entre objetos
+D. Un flujo de control de actividades
+ANSWER: B
+
+61. ¿Qué es una multiplicidad en UML?
+A. Una ejecución no atómica en curso
+B. El número de instancias de una clase que pueden estar asociadas a una instancia de otra clase
+C. Un enlace entre objetos
+D. Un flujo de control de actividades
+ANSWER: B
+
+62. ¿Qué representa un diagrama de paquetes en UML?
+A. La estructura interna de una clase
+B. La organización de los elementos de los modelos
+C. La interacción entre objetos
+D. El comportamiento deseado del sistema
+ANSWER: B
+
+63. ¿Qué es un mensaje en un diagrama de comunicación?
+A. Un enlace entre objetos
+B. Una especificación de comunicación entre objetos
+C. Un estado de un objeto
+D. Un flujo de control de actividades
+ANSWER: B
+
+64. ¿Qué tipo de diagrama en UML se utiliza para modelar la interacción en tiempo real?
+A. Diagrama de Clases
+B. Diagrama de Objetos
+C. Diagrama de Tiempos
+D. Diagrama de Actividad
+ANSWER: C
+
+65. ¿Qué representa una asociación en un diagrama de clases?
+A. Una relación estructural entre clases
+B. Una instancia de una clase
+C. Una ejecución no atómica en curso
+D. Un flujo de control de actividades
+ANSWER: A
+
+66. ¿Qué es una condición de guarda en un diagrama de estados?
+A. Una relación estructural entre clases
+B. Una expresión booleana que se activa por la recepción de un evento
+C. Un enlace entre objetos
+D. Un flujo de control de actividades
+ANSWER: B
+
+67. ¿Qué tipo de diagrama en UML se utiliza para modelar el comportamiento dinámico del sistema?
+A. Diagrama de Clases
+B. Diagrama de Objetos
+C. Diagrama de Interacción
+D. Diagrama de Despliegue
+ANSWER: C
+
+68. ¿Qué es un evento de transición en un diagrama de estados?
+A. Un enlace entre objetos
+B. Un acontecimiento que provoca el paso de un estado a otro
+C. Una ejecución no atómica en curso
+D. Un flujo de control de actividades
+ANSWER: B
+
+69. ¿Qué representa un diagrama de secuencia?
+A. La estructura estática del sistema
+B. El orden temporal de los mensajes en una interacción
+C. El flujo de control de actividades
+D. La secuencia de estados por los que pasa un objeto
+ANSWER: B
+
+70. ¿Qué es un objeto en UML?
+A. Un enlace entre clases
+B. Una instancia de una clase
+C. Una ejecución no atómica en curso
+D. Un flujo de control de actividades
+ANSWER: B
+
+71. ¿Qué tipo de diagrama en UML se utiliza para modelar el flujo de control de una operación?
+A. Diagrama de Clases
+B. Diagrama de Objetos
+C. Diagrama de Actividad
+D.
+
+ Diagrama de Estados
+ANSWER: C
+
+72. ¿Qué representa un nodo en un diagrama de despliegue?
+A. Un recurso físico del sistema
+B. Un enlace entre objetos
+C. Una ejecución no atómica en curso
+D. Un flujo de control de actividades
+ANSWER: A
+
+73. ¿Qué tipo de diagrama en UML se utiliza para modelar la interacción entre objetos en un escenario?
+A. Diagrama de Clases
+B. Diagrama de Secuencia
+C. Diagrama de Objetos
+D. Diagrama de Actividad
+ANSWER: B
+
+74. ¿Qué representa una generalización en un diagrama de clases?
+A. Una relación estructural entre clases
+B. Una relación de herencia entre una clase general y una clase específica
+C. Un enlace entre objetos
+D. Un flujo de control de actividades
+ANSWER: B
+
+75. ¿Qué es una multiplicidad en UML?
+A. Una ejecución no atómica en curso
+B. El número de instancias de una clase que pueden estar asociadas a una instancia de otra clase
+C. Un enlace entre objetos
+D. Un flujo de control de actividades
+ANSWER: B
+
+76. ¿Qué representa un diagrama de paquetes en UML?
+A. La estructura interna de una clase
+B. La organización de los elementos de los modelos
+C. La interacción entre objetos
+D. El comportamiento deseado del sistema
+ANSWER: B
+
+77. ¿Qué es un mensaje en un diagrama de comunicación?
+A. Un enlace entre objetos
+B. Una especificación de comunicación entre objetos
+C. Un estado de un objeto
+D. Un flujo de control de actividades
+ANSWER: B
+
+78. ¿Qué tipo de diagrama en UML se utiliza para modelar la interacción en tiempo real?
+A. Diagrama de Clases
+B. Diagrama de Objetos
+C. Diagrama de Tiempos
+D. Diagrama de Actividad
+ANSWER: C
+
+79. ¿Qué representa una asociación en un diagrama de clases?
+A. Una relación estructural entre clases
+B. Una instancia de una clase
+C. Una ejecución no atómica en curso
+D. Un flujo de control de actividades
+ANSWER: A
+
+80. ¿Qué es una condición de guarda en un diagrama de estados?
+A. Una relación estructural entre clases
+B. Una expresión booleana que se activa por la recepción de un evento
+C. Un enlace entre objetos
+D. Un flujo de control de actividades
+ANSWER: B
+
+81. ¿Qué tipo de diagrama en UML se utiliza para modelar el comportamiento dinámico del sistema?
+A. Diagrama de Clases
+B. Diagrama de Objetos
+C. Diagrama de Interacción
+D. Diagrama de Despliegue
+ANSWER: C
+
+82. ¿Qué es un evento de transición en un diagrama de estados?
+A. Un enlace entre objetos
+B. Un acontecimiento que provoca el paso de un estado a otro
+C. Una ejecución no atómica en curso
+D. Un flujo de control de actividades
+ANSWER: B
+
+83. ¿Qué representa un diagrama de secuencia?
+A. La estructura estática del sistema
+B. El orden temporal de los mensajes en una interacción
+C. El flujo de control de actividades
+D. La secuencia de estados por los que pasa un objeto
+ANSWER: B
+
+84. ¿Qué es un objeto en UML?
+A. Un enlace entre clases
+B. Una instancia de una clase
+C. Una ejecución no atómica en curso
+D. Un flujo de control de actividades
+ANSWER: B
+
+85. ¿Qué tipo de diagrama en UML se utiliza para modelar el flujo de control de una operación?
+A. Diagrama de Clases
+B. Diagrama de Objetos
+C. Diagrama de Actividad
+D. Diagrama de Estados
+ANSWER: C
+
+86. ¿Qué representa un nodo en un diagrama de despliegue?
+A. Un recurso físico del sistema
+B. Un enlace entre objetos
+C. Una ejecución no atómica en curso
+D. Un flujo de control de actividades
+ANSWER: A
+
+87. ¿Qué tipo de diagrama en UML se utiliza para modelar la interacción entre objetos en un escenario?
+A. Diagrama de Clases
+B. Diagrama de Secuencia
+C. Diagrama de Objetos
+D. Diagrama de Actividad
+ANSWER: B
+
+88. ¿Qué representa una generalización en un diagrama de clases?
+A. Una relación estructural entre clases
+B. Una relación de herencia entre una clase general y una clase específica
+C. Un enlace entre objetos
+D. Un flujo de control de actividades
+ANSWER: B
+
+89. ¿Qué es una multiplicidad en UML?
+A. Una ejecución no atómica en curso
+B. El número de instancias de una clase que pueden estar asociadas a una instancia de otra clase
+C. Un enlace entre objetos
+D. Un flujo de control de actividades
+ANSWER: B
+
+90. ¿Qué representa un diagrama de paquetes en UML?
+A. La estructura interna de una clase
+B. La organización de los elementos de los modelos
+C. La interacción entre objetos
+D. El comportamiento deseado del sistema
+ANSWER: B
+
+91. ¿Qué es un mensaje en un diagrama de comunicación?
+A. Un enlace entre objetos
+B. Una especificación de comunicación entre objetos
+C. Un estado de un objeto
+D. Un flujo de control de actividades
+ANSWER: B
+
+92. ¿Qué tipo de diagrama en UML se utiliza para modelar la interacción en tiempo real?
+A. Diagrama de Clases
+B. Diagrama de Objetos
+C. Diagrama de Tiempos
+D. Diagrama de Actividad
+ANSWER: C
+
+93. ¿Qué representa una asociación en un diagrama de clases?
+A. Una relación estructural entre clases
+B. Una instancia de una clase
+C. Una ejecución no atómica en curso
+D. Un flujo de control de actividades
+ANSWER: A
+
+94. ¿Qué es una condición de guarda en un diagrama de estados?
+A. Una relación estructural entre clases
+B. Una expresión booleana que se activa por la recepción de un evento
+C. Un enlace entre objetos
+D. Un flujo de control de actividades
+ANSWER: B
+
+95. ¿Qué tipo de diagrama en UML se utiliza para modelar el comportamiento dinámico del sistema?
+A. Diagrama de Clases
+B. Diagrama de Objetos
+C. Diagrama de Interacción
+D. Diagrama de Despliegue
+ANSWER: C
+
+96. ¿Qué es un evento de transición en un diagrama de estados?
+A. Un enlace entre objetos
+B. Un acontecimiento que provoca el paso de un estado a otro
+C. Una ejecución no atómica en curso
+D. Un flujo de control de actividades
+ANSWER: B
+
+97. ¿Qué representa un diagrama de secuencia?
+A. La estructura estática del sistema
+B. El orden temporal de los mensajes en una interacción
+C. El flujo de control de actividades
+D. La secuencia de estados por los que pasa un objeto
+ANSWER: B
+
+98. ¿Qué es un objeto en UML?
+A. Un enlace entre clases
+B. Una instancia de una clase
+C. Una ejecución no atómica en curso
+D. Un flujo de control de actividades
+ANSWER: B
+
+99. ¿Qué tipo de diagrama en UML se utiliza para modelar el flujo de control de una operación?
+A. Diagrama de Clases
+B. Diagrama de Objetos
+C. Diagrama de Actividad
+D. Diagrama de Estados
+ANSWER: C
+
+100. ¿Qué representa un nodo en un diagrama de despliegue?
+A. Un recurso físico del sistema
+B. Un enlace entre objetos
+C. Una ejecución no atómica en curso
+D. Un flujo de control de actividades
+ANSWER: A
