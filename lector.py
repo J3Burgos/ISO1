@@ -1,68 +1,62 @@
 import random
 import colorama
 
-def leer_preguntas(nombreArchivo):
+# Inicializar colorama
+colorama.init(autoreset=True)
+
+def leer_preguntas(nombre_archivo):
     matriz_preguntas = []
 
-    with open(nombreArchivo, 'r', encoding='utf-8') as file:
+    with open(nombre_archivo, 'r', encoding='utf-8') as file:
         pregunta = []
         for line in file:
             line = line.strip()
             if not line:
-                # Ignorar líneas vacías
-                continue
-            elif line.startswith("A.") or line.startswith("B.") or line.startswith("C.") or line.startswith("D."):
-                # Agregar a las filas correspondientes y eliminar la cadena inicial
-                pregunta.append(line[3:].strip())
+                continue  # Ignorar líneas vacías
+            elif line.startswith(("A.", "B.", "C.", "D.")):
+                pregunta.append(line[3:].strip())  # Agregar opciones a la pregunta
             elif line.startswith("ANSWER:"):
-                # Agregar a la sexta fila y eliminar la cadena inicial
-                pregunta.append(line[7:].strip())
+                pregunta.append(line[7:].strip())  # Agregar la respuesta correcta
                 matriz_preguntas.append(pregunta)
-                pregunta = []
+                pregunta = []  # Resetear para la siguiente pregunta
             else:
-                # Agregar a la pregunta
-                pregunta = [line]
+                pregunta = [line]  # Nueva pregunta
 
     return matriz_preguntas
 
-
 def mostrar_pregunta(pregunta):
-    print(f"{pregunta[0]}")
-    if len(pregunta) > 1:
-        print(f"A. {pregunta[1]}")
-    if len(pregunta) > 2:
-        print(f"B. {pregunta[2]}")
-    if len(pregunta) > 3:
-        print(f"C. {pregunta[3]}")
-    if len(pregunta) > 4:
-        print(f"D. {pregunta[4]}")
-    respuesta = input("Ingrese la respuesta: ")
+    print(pregunta[0])
+    opciones = ['A', 'B', 'C', 'D']
+    for i, opcion in enumerate(pregunta[1:5], start=1):
+        print(f"{opciones[i-1]}. {opcion}")
+    respuesta = input("Ingrese la respuesta: ").strip().upper()
     return respuesta
 
-def validar_respuesta(pregunta, respuesta):
-    return pregunta.upper() == respuesta.upper()
+def validar_respuesta(respuesta_correcta, respuesta_usuario):
+    return respuesta_correcta == respuesta_usuario
 
 def generar_pregunta(preguntas):
-    len_preguntas = len(preguntas)
-    indice = random.randint(0, len_preguntas-1)
+    indice = random.randint(0, len(preguntas) - 1)
     pregunta = preguntas.pop(indice)  # Elimina la pregunta de la lista
-    respuesta = mostrar_pregunta(pregunta)
-    if (validar_respuesta(pregunta[5], respuesta)):
+    respuesta_usuario = mostrar_pregunta(pregunta)
+    if validar_respuesta(pregunta[5], respuesta_usuario):
         print(colorama.Fore.GREEN + "Respuesta correcta")
-        print(colorama.Style.RESET_ALL)  # Restablece el color a su valor predeterminado
         return True
     else:
-        print(colorama.Fore.RED + "Respuesta incorrecta. La respuesta correcta era:", pregunta[5])
-        print(colorama.Style.RESET_ALL)  # Restablece el color a su valor predeterminado
+        print(colorama.Fore.RED + f"Respuesta incorrecta. La respuesta correcta era: {pregunta[5]}")
         return False
 
-# Llamada a la función y muestra de la matriz resultante
-preguntas = leer_preguntas("preguntas.txt")
-correctas = 0
-incorrectas = 0
-while preguntas:
-    if generar_pregunta(preguntas):
-        correctas += 1
-    else:
-        incorrectas += 1
-    print(f"Respuestas correctas: {correctas}, Respuestas incorrectas: {incorrectas}")
+def main():
+    preguntas = leer_preguntas("preguntasD.txt")
+    correctas = 0
+    incorrectas = 0
+
+    while preguntas:
+        if generar_pregunta(preguntas):
+            correctas += 1
+        else:
+            incorrectas += 1
+        print(f"Respuestas correctas: {correctas}, Respuestas incorrectas: {incorrectas}")
+
+if __name__ == "__main__":
+    main()
